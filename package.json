@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+ },
+  "author": "Karan Janthe",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",

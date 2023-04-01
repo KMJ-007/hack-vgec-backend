@@ -24,39 +24,6 @@ const db = mongoose.connect(mongoURL, {
     .then(() => console.log('MongoDB Connected...'))
     .catch(err => console.log(err));
 
-const myCollection = mongoose.Collection("indoorNavigation");
-
-db.myCollection.insertMany([
-    {
-        "type": "Feature",
-        "properties": {
-            "name": "J BLOCK"
-        },
-        "geometry": {
-            "coordinates": [
-                72.59523036868717,
-                23.107527312192374
-            ],
-            "type": "Point"
-        },
-        "id": 0
-    },
-    {
-        "type": "Feature",
-        "properties": {
-            "name": "A BLOCK"
-        },
-        "geometry": {
-            "coordinates": [
-                72.59548681062563,
-                23.106574880761187
-            ],
-            "type": "Point"
-        },
-        "id": 1
-    },
-    {
-])
 
 
 
